@@ -3,7 +3,7 @@ extern crate core;
 mod common;
 mod v6;
 mod v7;
-mod constants;
+pub mod constants;
 mod fixed_parameters;
 mod variable_parameters;
 
