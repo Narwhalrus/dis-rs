@@ -977,7 +977,7 @@ impl DisTimeStamp {
 
 /// Helper function to convert seconds to nanoseconds
 fn seconds_to_nanoseconds(seconds: u32) -> u32 {
-    seconds * 1e9
+    seconds * 1e9u32
 }
 
 /// Helper function to convert nanoseconds pas the hour to DIS Time Units past the hour.
